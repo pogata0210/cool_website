@@ -7,7 +7,6 @@
     font-size: 0;
     vertical-align: baseline;
 }
-
 html {
     font-family: Circular std, sans-serif;
 }
@@ -25,12 +24,24 @@ h3{
 p{
     font-size: 16px;
 }
-
 .btnOutline{
     display: block;
     text-decoration: none;
     color: #2B9DFF;
     border: 2px solid #2B9DFF;
+    border-radius: 6px;
+    width: 175px;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    margin-top: 30px;
+}
+.btnFilled{
+    display: block;
+    text-decoration: none;
+    color: White;
+    border: 2px solid #2B9DFF;
+    background-color: #2B9DFF;
     border-radius: 6px;
     width: 175px;
     height: 53px;
