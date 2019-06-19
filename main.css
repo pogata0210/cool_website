@@ -1,10 +1,10 @@
-/*---global-----*/
+/*-----global-----*/
 *{
     margin: 0;
     padding: 0;
     border: 0;
     outline: 0;
-    font-size: 0;
+    font-size: 100%;
     vertical-align: baseline;
 }
 html {
@@ -52,7 +52,7 @@ p{
 
 /*---nav-----*/
 nav {
-    line-hight: 150px;
+    line-height: 150px;
     text-align: right;
 }
 nav a {
@@ -69,10 +69,26 @@ nav a img {
 }
 nav a span {
     background: #2B9DFF;
-    padding:5px 15px;
-    border-radius: 10000px;
+    padding: 5px 15px;
+    border-radius: 1000px;
     font-weight:  100;
     color: white;
     margin-left:7px;
 
+}
+
+
+/*---header-----*/
+header {
+    height: 1000px;
+    min-height: 1000px;
+    padding: 0 5%;
+    background-image: url(images/background_header.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom right;
+}
+header h1 {
+    width: 40%;
+    margin: 2em 0 0 0;
 }
